@@ -21,11 +21,5 @@ Pod::Spec.new do |s|
   s.framework = 'Foundation', 'UIKit'
   s.requires_arc = true
   s.source_files = 'DDDemo1/Classes/**/*'
-  s.swift_version = '4.0'
-  # s.resource_bundles = {
-  #   'DDDemo1' => ['DDDemo1/Assets/*.png']
-  # }
-  # s.public_header_files = 'Pod/Classes/**/*.h'
- 
-  # s.dependency 'AFNetworking', '~> 2.3'
+
 end
