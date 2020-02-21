@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DDDemo1_Example' do
+  pod 'DDDemo1', :path => '../'
+
+  target 'DDDemo1_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
