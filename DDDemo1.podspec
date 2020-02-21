@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.framework = 'Foundation', 'UIKit'
   s.requires_arc = true
   s.source_files = 'DDDemo1/Classes/**/*'
-  
+  s.swift_version = '4.0'
   # s.resource_bundles = {
   #   'DDDemo1' => ['DDDemo1/Assets/*.png']
   # }
