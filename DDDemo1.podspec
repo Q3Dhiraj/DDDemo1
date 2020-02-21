@@ -29,7 +29,7 @@ TODO: This is  DDDemo1 first App, i have working for long time for this app Than
   s.source           = { :git => 'https://github.com/dkumarq3/DDDemo1.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'DDDemo1/Classes/**/*'
   
