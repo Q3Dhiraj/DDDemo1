@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DDDemo1'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DDDemo1.'
+  s.version          = '1.0.0'
+  s.summary          = 'This is  DDDemo1 first App .'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: This is  DDDemo1 first App, i have working for long time for this app Thanks .
                        DESC
 
-  s.homepage         = 'https://github.com/Dhiraj kumar/DDDemo1'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/dkumarq3/DDDemo1'
+  s.screenshots     = 'https://images.macrumors.com/t/unGmZZ6o_sPgxmaK7J7-m0oKFl8=/1600x0/article-new/2019/12/iphonetopcharts2019-800x779.jpg'
+  
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dhiraj kumar' => 'dkumar@q3tech.com' }
-  s.source           = { :git => 'https://github.com/Dhiraj kumar/DDDemo1.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/dkumarq3/DDDemo1.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,6 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

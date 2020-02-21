@@ -1,0 +1,6 @@
+framework module Pods_DDDemo1_Example {
+  umbrella header "Pods-DDDemo1_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

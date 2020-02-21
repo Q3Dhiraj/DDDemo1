@@ -1,0 +1,16 @@
+PODS:
+  - DDDemo1 (0.1.0)
+
+DEPENDENCIES:
+  - DDDemo1 (from `../`)
+
+EXTERNAL SOURCES:
+  DDDemo1:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDDemo1: 2a9cb77fc4e8614d335bd16382338067ee0bf647
+
+PODFILE CHECKSUM: e8a31764cdf24fdab0b0be6c84ee5de8e55f747c
+
+COCOAPODS: 1.8.4

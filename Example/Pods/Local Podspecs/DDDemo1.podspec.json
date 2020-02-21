@@ -1,0 +1,22 @@
+{
+  "name": "DDDemo1",
+  "version": "0.1.0",
+  "summary": "A short description of DDDemo1.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Dhiraj kumar/DDDemo1",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dhiraj kumar": "dkumar@q3tech.com"
+  },
+  "source": {
+    "git": "https://github.com/Dhiraj kumar/DDDemo1.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DDDemo1/Classes/**/*"
+}

@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import DDDemo1
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        DDTest.testMethod()
+        
     }
 
     override func didReceiveMemoryWarning() {

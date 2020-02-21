@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		07A4929021D610DA9EF71DEF /* Pods_DDDemo1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDDemo1_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D9E4C5570FC96EB84CB4F64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2E55C6B678AF0865C0F29939 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1D9E4C5570FC96EB84CB4F64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2E55C6B678AF0865C0F29939 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		328A63A70E03A6D9DEA4A2F3 /* Pods-DDDemo1_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDDemo1_Example.debug.xcconfig"; path = "Target Support Files/Pods-DDDemo1_Example/Pods-DDDemo1_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4B9E7110EAA147C1AC47636A /* Pods-DDDemo1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDDemo1_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DDDemo1_Tests/Pods-DDDemo1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DDDemo1_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDDemo1_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* DDDemo1_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDDemo1_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		623F6351429A4974C9408540 /* DDDemo1.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DDDemo1.podspec; path = ../DDDemo1.podspec; sourceTree = "<group>"; };
+		623F6351429A4974C9408540 /* DDDemo1.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DDDemo1.podspec; path = ../DDDemo1.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8983476EECE2AF94FD766165 /* Pods_DDDemo1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDDemo1_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C16E3BD50AA9C4AC484EEA /* Pods-DDDemo1_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDDemo1_Tests.release.xcconfig"; path = "Target Support Files/Pods-DDDemo1_Tests/Pods-DDDemo1_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C8129680BB8A2B8AF5723FF0 /* Pods-DDDemo1_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDDemo1_Example.release.xcconfig"; path = "Target Support Files/Pods-DDDemo1_Example/Pods-DDDemo1_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,7 +147,6 @@
 				4B9E7110EAA147C1AC47636A /* Pods-DDDemo1_Tests.debug.xcconfig */,
 				C3C16E3BD50AA9C4AC484EEA /* Pods-DDDemo1_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
