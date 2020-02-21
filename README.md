@@ -1,6 +1,6 @@
 # DDDemo1
 
-[![CI Status](https://img.shields.io/travis/Dhiraj kumar/DDDemo1.svg?style=flat)](https://travis-ci.org/Dhiraj kumar/DDDemo1)
+[![CI Status](https://img.shields.io/travis/Dhiraj kumar/DDDemo1.svg?style=flat)](https://travis-ci.org/ dkumarq3 / DDDemo1)
 [![Version](https://img.shields.io/cocoapods/v/DDDemo1.svg?style=flat)](https://cocoapods.org/pods/DDDemo1)
 [![License](https://img.shields.io/cocoapods/l/DDDemo1.svg?style=flat)](https://cocoapods.org/pods/DDDemo1)
 [![Platform](https://img.shields.io/cocoapods/p/DDDemo1.svg?style=flat)](https://cocoapods.org/pods/DDDemo1)
