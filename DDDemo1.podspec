@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DDDemo1'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'This is  DDDemo1 first App .'
 
 # This description is used to generate tags and improve search results.
@@ -28,8 +28,10 @@ TODO: This is  DDDemo1 first App, i have working for long time for this app Than
   s.author           = { 'Dhiraj kumar' => 'dkumar@q3tech.com' }
   s.source           = { :git => 'https://github.com/dkumarq3/DDDemo1.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '11.0'
+  s.platform =:ios,'10.3'
+  
+  
+  #s.ios.deployment_target = '11.0'
 
   s.source_files = 'DDDemo1/Classes/**/*'
   
