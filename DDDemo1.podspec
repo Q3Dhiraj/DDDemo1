@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Dhiraj kumar' => 'dkumar@q3tech.com' }
   s.source           = { :git => 'https://github.com/dkumarq3/DDDemo1.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.platform = :ios, '8.0'
+  s.platform = :ios, '10.3'
   s.framework = 'Foundation', 'UIKit'
   s.requires_arc = true
   s.source_files = 'DDDemo1/Classes/**/*'
